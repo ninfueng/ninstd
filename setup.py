@@ -8,14 +8,14 @@ with open('README.md', 'r') as fh:
 
 
 setuptools.setup(
-    name='nincore',
+    name='ninstd',
     version='0.1',
     author='Ninnart Fuengfusin',
     author_email='ninnart.fuengfusin@yahoo.com',
     description='A wrapper of Python using only standard libraries.',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/ninfueng/nincore',
+    url='https://github.com/ninfueng/ninstd',
     packages=setuptools.find_packages(),
     classifiers=[
         'Programming Language :: Python :: 3',

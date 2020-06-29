@@ -7,6 +7,16 @@ This module is designed to be my base requirement of my further modules. <br>
 pip install ninstd
 ```
 
+## Directory tree
+```
+ninstd_____error
+	|__check
+	|__path
+	|__recorder
+	|__utils
+	|__typing
+```
+
 ## License
 MIT License with some exceptions. <br>
 Please look at comments within the module.

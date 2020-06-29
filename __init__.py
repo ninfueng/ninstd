@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-from .nincore import *
+from .ninstd import *
 from . import check
 from . import typing
 from . import path
