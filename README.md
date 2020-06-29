@@ -1,4 +1,4 @@
-# nincore
+# ninstd
 A wrapper of Python using only standard libraries. <br>
 This module is designed to be my base requirement of my further modules. <br>
 
