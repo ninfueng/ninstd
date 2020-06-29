@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-from .typing import *
+from .type import *
 
 __all__ = []
-__all__ += typing.__all__
+__all__ += type.__all__

@@ -5,8 +5,7 @@
 import os
 import json
 import logging
-import logging.config
-from path import del_dir_or_file
+from .path import del_dir_or_file
 
 __all__ = [
     'set_json_log', 

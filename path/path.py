@@ -34,7 +34,7 @@ def not_type_append_type(directory: str, suffix: str) -> str:
     assert isinstance(suffix, str)
     if not check_file_type(directory, suffix):
         splited = directory.split('.')
-        assert len(splited) == 2, 'Not work when directory contains `.` more than one.'
+        assert len(splited) == 1 or len(splited) == 2, 'Not work when directory contains `.` more than one.'
         prefix = splited[0]
         path = os.path.join(prefix, suffix)
     else:
