@@ -4,7 +4,7 @@ This module is designed to be my base requirement of my further modules. <br>
 
 ## To install
 ```
-pip install nincore
+pip install ninstd
 ```
 
 ## License
