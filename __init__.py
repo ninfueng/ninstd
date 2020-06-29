@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 from .ninstd import *
+from .namer import *
+from .log import *
 from . import check
 from . import typing
 from . import path
@@ -10,6 +12,9 @@ from . import error
 
 
 __all__ = []
+__all__ = ninstd.__all__
+__all__ = namer.__all__
+__all__ = log.__all__
 __all__ += check.__all__
 __all__ += typing.__all__
 __all__ += path.__all__

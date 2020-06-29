@@ -1,6 +1,7 @@
 # ninstd
 A wrapper of Python using only standard libraries. <br>
-This module is designed to be my base requirement of my further modules. <br>
+The goad of the module is to provide a basic support for my future modules. <br>
+`ninstd` includes any type of applications.
 
 ## To install
 ```
@@ -23,4 +24,5 @@ Please look at comments within the module.
 
 
 ## TODO
-- All.
+- Type hinting.
+- 
