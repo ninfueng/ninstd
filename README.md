@@ -19,7 +19,7 @@ ninstd_____error
 	|__typing
 ```
 
-# Requirements
+## Requirements
 ```
 Python >= 3.7
 ```
