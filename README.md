@@ -27,7 +27,7 @@ Python >= 3.7
 ## License
 ```
 MIT License with some exceptions. <br>
-Some functions or classes might be coplied from other sources.
+Some functions or classes might be coplied from other sources. <br>
 Please look at comments or docstrings within.
 ```
 ## TODO
