@@ -1,7 +1,8 @@
 # ninstd
 A wrapper of Python using only standard libraries. <br>
-The goad of the module is to provide a basic support for my future modules. <br>
-`ninstd` includes any type of applications.
+`ninstd` is designed to provide an basic support to any type of applications. <br>
+`ninstd` is planned to use as a base for my future modules. <br>
+Currently, work on progress. A lot of change and error will be expected. <br>
 
 ## To install
 ```
@@ -18,11 +19,18 @@ ninstd_____error
 	|__typing
 ```
 
+# Requirements
+```
+Python >= 3.7
+```
+
 ## License
+```
 MIT License with some exceptions. <br>
-Please look at comments within the module.
-
-
+Some functions or classes might be coplied from other sources.
+Please look at comments or docstrings within.
+```
 ## TODO
 - Type hinting.
-- Make it loadable.
+- Adding unittest.
+- Add docstrings.
