@@ -7,8 +7,8 @@ import os
 import copy
 import shutil
 from zipfile import ZipFile
-from path import not_type_append_type, not_dir_mkdir, del_dir_or_file
-from check import is_exist, check_file_type
+from .path import not_type_append_type, not_dir_mkdir, del_dir_or_file
+from .check import is_exist, check_file_type
 
 __all__ = ['Zipper']
 

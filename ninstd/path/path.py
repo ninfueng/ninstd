@@ -6,7 +6,7 @@ import os
 import shutil
 from ..check import is_dir, is_exist, check_file_type
 
-__all__ = ['del_dir_or_file', 'not_dir_mkdir']
+__all__ = ['del_dir_or_file', 'not_dir_mkdir', 'not_type_append_type']
 
 
 def del_dir_or_file(dir_or_file: str) -> None:

@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 import setuptools
 
+def get_version():
+    return
 
 with open('README.md', 'r') as fh:
     long_description = fh.read()
@@ -9,7 +11,7 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name='ninstd',
-    version='0.1',
+    version='0.4',
     author='Ninnart Fuengfusin',
     author_email='ninnart.fuengfusin@yahoo.com',
     description='A wrapper of Python using only standard libraries.',

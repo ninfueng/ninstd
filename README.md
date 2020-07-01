@@ -25,4 +25,4 @@ Please look at comments within the module.
 
 ## TODO
 - Type hinting.
-- 
+- Make it loadable.
