@@ -8,9 +8,9 @@ import sys
 import shutil
 
 __all__ = [
-    'is_imported', 
-    'is_dir', 
-    'is_exist', 
+    'is_imported',
+    'is_dir',
+    'is_exist',
     'check_file_type',
     ]
 
@@ -25,13 +25,13 @@ def is_imported(module: str) -> bool:
         return False
 
 def is_dir(directory: str) -> bool:
-    """Return True if that directory is dir. 
+    """Return True if that directory is dir.
     """
     return os.path.isdir(os.path.join(os.getcwd(), directory))
 
 
 def is_exist(directory: str) -> bool:
-    """Return True if that directory is dir. 
+    """Return True if that directory is dir.
     """
     return os.path.exists(os.path.join(os.getcwd(), directory))
 
@@ -41,7 +41,7 @@ def check_type_args(*args: str, type: str) -> bool:
     """
     for arg in args:
         assert isinstance(arg, type)
-    
+
 
 def check_file_type(directory: str, suffix: str) -> None:
     """Split a file type from directory and check that is same as file_type or not.
