@@ -8,7 +8,7 @@ import logging
 from .path import del_dir_or_file
 
 __all__ = [
-    'set_json_log', 
+    'set_json_log',
     'get_log_path',
     ]
 
@@ -17,7 +17,7 @@ DEF_INFO_PATH = 'info.log'
 DEF_DEBUG_PATH = 'debug.log'
 
 
-def get_log_path(env_vari: str='LOG_PATH') -> str:
+def get_log_path(env_vari: str = 'LOG_PATH') -> str:
     """
     """
     assert isinstance(env_vari, str)
@@ -28,8 +28,8 @@ def get_log_path(env_vari: str='LOG_PATH') -> str:
 
 
 def set_json_log(
-        json_path: str = DEF_LOG_PATH, 
-        def_lvl: int = logging.INFO, 
+        json_path: str = DEF_LOG_PATH,
+        def_lvl: int = logging.INFO,
         rm_old: bool = True) -> None:
     """Modified from: https://fangpenlin.com/posts/2012/08/26/good-logging-practice-in-python/
     Using json logging as the main logger.
