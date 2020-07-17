@@ -10,7 +10,7 @@ __all__ = ['del_dir_or_file', 'not_dir_mkdir', 'not_type_append_type']
 
 
 def del_dir_or_file(dir_or_file: str) -> None:
-    """
+    """Maybe checking this name to del_recur.
     """
     assert isinstance(dir_or_file, str)
     if is_dir(dir_or_file):

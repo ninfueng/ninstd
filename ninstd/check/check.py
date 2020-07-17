@@ -6,11 +6,14 @@ Note that if the module is related to check, the priority is to put at here.
 import os
 import sys
 import shutil
+from collections.abc import Iterable
+from typing import Tuple
 
 __all__ = [
     'is_imported',
     'is_dir',
     'is_exist',
+    'is_iterable',
     'check_file_type',
     ]
 
@@ -35,17 +38,23 @@ def is_exist(directory: str) -> bool:
     """
     return os.path.exists(os.path.join(os.getcwd(), directory))
 
+def is_iterable(var) -> bool:
+    return isinstance(var, Iterable)
 
-def check_type_args(*args: str, type: str) -> bool:
+
+def check_type_args(*args: str, type: str) -> Tuple[list, bool]:
     """Assert that all args has same type as type.
     """
+    check_list: list = []
     for arg in args:
-        assert isinstance(arg, type)
+        check_list.append(isinstance(arg, type))
+    return check_list, all(check_list)
 
 
-def check_file_type(directory: str, suffix: str) -> None:
+def check_file_type(directory: str, suffix: str) -> bool:
     """Split a file type from directory and check that is same as file_type or not.
     """
     assert isinstance(directory, str)
+    assert isinstance(suffix, str)
     return suffix == directory.split('.')[-1]
 
