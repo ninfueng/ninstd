@@ -3,6 +3,7 @@
 from .namer import *
 from .log import *
 from .zipper import *
+from .core import *
 from . import check
 from . import type
 from . import path
@@ -12,9 +13,10 @@ from . import error
 
 
 __all__ = []
-__all__ = namer.__all__
-__all__ = log.__all__
-__all__ = zipper.__all__
+__all__ += namer.__all__
+__all__ += log.__all__
+__all__ += zipper.__all__
+__all__ += core.__all__
 
 #__all__ += check.__all__
 #__all__ += type.__all__
